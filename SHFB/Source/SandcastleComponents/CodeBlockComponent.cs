@@ -41,27 +41,28 @@
 //===============================================================================================================
 
 using System;
-using System.Collections.Generic;
-using System.ComponentModel.Composition.Hosting;
-using System.Configuration;
-using System.Diagnostics;
-using System.IO;
-using System.Globalization;
-using System.Net;
-using System.Reflection;
-using System.Text.RegularExpressions;
-using System.Xml;
-using System.Xml.XPath;
+using System .Collections .Generic;
+using System .ComponentModel .Composition .Hosting;
+using System .Configuration;
+using System .Diagnostics;
+using System .IO;
+using System .Globalization;
+using System .Net;
+using System .Reflection;
+using System .Text .RegularExpressions;
+using System .Xml;
+using System .Xml .XPath;
 
+
+
+using Microsoft .Ddue .Tools .BuildComponent;
+
+using Sandcastle .Core;
+using Sandcastle .Core .BuildAssembler;
+using Sandcastle .Core .BuildAssembler .BuildComponent;
+
+using SandcastleBuilder .Components .UI;
 using ColorizerLibrary;
-
-using Microsoft.Ddue.Tools.BuildComponent;
-
-using Sandcastle.Core;
-using Sandcastle.Core.BuildAssembler;
-using Sandcastle.Core.BuildAssembler.BuildComponent;
-
-using SandcastleBuilder.Components.UI;
 
 namespace SandcastleBuilder.Components
 {
